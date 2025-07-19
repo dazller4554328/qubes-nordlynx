@@ -39,6 +39,7 @@ nordvpn login
 nordvpn set firewall enabled
 nordvpn set killswitch enabled
 nordvpn set threatprotectionlite enabled
+nordvpn set lan-discovery enabled
 ```
 
 ---
