@@ -4,13 +4,13 @@
 
 This guide walks you through creating a VPN gateway using NordVPN and routing your Qubes AppVMs through it securely. It includes firewall, DNS, MTU, and Qubes 4.3 compatibility fixes.
 
-Tested on **Qubes OS 4.2** and **4.3** using **Fedora 41** for both the VPN gateway and AppVMs.
+Tested on **Qubes OS 4.2** and **4.3** using **Fedora 41, Fedora 42 and Fedora 43** for both the VPN gateway and AppVMs.
 
 ---
 
 ## 🔧 Step 1: Create the VPN Gateway Qube
 
-1. **Create a Standalone AppVM** based on `fedora-41`.  
+1. **Create a Standalone AppVM** based on `fedora-41,42 or 43`.  
    Example name: `sys-vpn`.
 2. Set its **NetVM** to `sys-firewall`.
 3. Open **Qube Settings** for `sys-vpn`:
